@@ -15,6 +15,8 @@ o   The existing code before the hackathon
   3-    Google Firebase.
 
   4-    Speech to text in Android.
+  
+  5-    Volley from Google. 
 
 o   What has been created during the hackathon:
 
@@ -27,7 +29,7 @@ All features and UI designed and built in the Hackathon:
 
   4-    Map direction.
 
-  5-     Friends in map
+  5-    Friends in map
 
   6-    Notification
 
