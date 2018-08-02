@@ -11,7 +11,7 @@
 		android:layout_height="320dp"
 		android:layout_alignParentTop="true"
 		android:layout_centerHorizontal="true"
-		android:layout_marginTop="210dp"
+		android:layout_marginTop="215dp"
 		android:background="@drawable/landing">
 
 		<LinearLayout

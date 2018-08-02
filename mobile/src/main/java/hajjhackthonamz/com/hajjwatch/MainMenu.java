@@ -16,4 +16,20 @@ public class MainMenu extends AppCompatActivity {
     public void goToMaps(View view) {
         startActivity(new Intent(getBaseContext(), MapsActivity.class));
     }
+
+    public void goToTo(View view) {
+        startActivity(new Intent(getBaseContext(), GoTo.class));
+    }
+
+    public void goToEmergency(View view) {
+    }
+
+    public void goToTrain(View view) {
+        startActivity(new Intent(getBaseContext(), Train.class));
+
+    }
+
+
+    public void goBack(View view) { onBackPressed();
+    }
 }

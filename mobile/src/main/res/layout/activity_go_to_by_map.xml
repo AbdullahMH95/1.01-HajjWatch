@@ -32,14 +32,14 @@
             android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="320dp"
             android:layout_height="320dp"
-            tools:context=".MapsActivity" />
+            tools:context=".GoToByMap" />
 
 
         <ImageView
             android:layout_width="320dp"
             android:layout_height="340dp"
             android:layout_gravity="center"
-            android:src="@drawable/friendsmapv2" />
+            android:src="@drawable/locationmapingotot" />
 
         <ImageView
             android:layout_width="130dp"

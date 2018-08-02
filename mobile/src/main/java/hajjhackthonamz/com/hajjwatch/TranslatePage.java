@@ -89,6 +89,6 @@ public class TranslatePage extends AppCompatActivity {
     }
 
     public void goBack(View view) {
-        onBackPressed();
+        startActivity(new Intent(getBaseContext(), MainActivity.class));
     }
 }
