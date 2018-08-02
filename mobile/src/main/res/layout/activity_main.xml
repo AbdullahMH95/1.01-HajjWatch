@@ -1,0 +1,68 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:background="@drawable/galaxys8"
+	android:orientation="vertical">
+
+	<RelativeLayout
+		android:layout_width="320dp"
+		android:layout_height="320dp"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="210dp"
+		android:background="@drawable/landing">
+
+		<LinearLayout
+			android:layout_width="150dp"
+			android:gravity="center"
+			android:layout_marginStart="80dp"
+			android:id="@+id/toMenu"
+			android:layout_height="100dp"
+			android:layout_marginLeft="80dp" />
+		<TextView
+			android:id="@+id/txvResult"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="100dp"
+			android:textColor="#000"
+			android:textSize="26sp"
+			android:textStyle="normal"
+			android:visibility="invisible" />
+
+		<com.imankur.analogclockview.AnalogClock
+			android:layout_width="240dp"
+			android:layout_height="240dp"
+			android:layout_marginLeft="0dp"
+			android:layout_marginRight="0dp"
+			android:layout_marginStart="43dp"
+			android:layout_marginTop="42dp"
+			app:dial="@drawable/tran"
+			app:hour="@drawable/hoursv2"
+			app:minute="@drawable/minv2"
+			app:second="@drawable/secv2"
+			app:showSecondHand="true" />
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:paddingLeft="5dp"
+			android:paddingTop="2dp"
+			android:src="@drawable/ic_brightness_1_black_24dp" />
+
+
+		<ImageView
+			android:id="@+id/btnSpeak"
+			android:layout_width="120dp"
+			android:layout_height="80dp"
+			android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true"
+			android:gravity="center"
+			android:onClick="getSpeechInput" />
+
+	</RelativeLayout>
+</RelativeLayout>

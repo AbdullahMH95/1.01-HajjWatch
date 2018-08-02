@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "855621846403",
+    "firebase_url": "https://hajjhackthon-1533121611942.firebaseio.com",
+    "project_id": "hajjhackthon-1533121611942",
+    "storage_bucket": "hajjhackthon-1533121611942.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855621846403:android:08c365f4a6a59424",
+        "android_client_info": {
+          "package_name": "hajjhackthonamz.com.hajjwatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855621846403-1ghr83pnk9k20kmcsuja3prffgv1ngou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hajjhackthonamz.com.hajjwatch",
+            "certificate_hash": "e62140a2c1288435c1f670b36d3368c911ccc555"
+          }
+        },
+        {
+          "client_id": "855621846403-lco7fq5fce63mu36f3d4u15lq8p6k5fv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByrU2jIMRCQO8UsgSygaV8MX_rnwrLe_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855621846403-lco7fq5fce63mu36f3d4u15lq8p6k5fv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
