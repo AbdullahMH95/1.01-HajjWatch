@@ -41,8 +41,8 @@ o   “Elevator pitch”
   Hajj Watch will make the hajj experience better by using maps and notification.
 
 o   “Team members”
-  Muath Alkhulayfi
-  Ziyad Alkhonein
+  Muath Alkhulayfi, 
+  Ziyad Alkhonein, 
   Abdullah Almahri
   
 o   “It's built with”
