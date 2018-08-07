@@ -21,7 +21,7 @@ import java.util.Locale;
 
 public class TranslatePage extends AppCompatActivity {
 
-    private static final String API_KEY = "AIzaSyCwtP_Rjbz1OC7qAJUwmnXo-P3IvZxELx4";
+    private static final String API_KEY = "Key";
 
 
     @SuppressLint("StaticFieldLeak")
