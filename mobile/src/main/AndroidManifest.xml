@@ -31,7 +31,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyA3SQVbNgOJX0yu2TTJiuI3Id8uE2G2Q5g" />
+            android:value="MapsKey" />
 
         <activity android:name=".GoTo" />
         <activity android:name=".AddFriend" />
